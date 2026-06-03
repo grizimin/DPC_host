@@ -100,8 +100,8 @@ async def handler(ws):
 
 
 async def main():
-    async with serve(handler, "0.0.0.0", 8765):
-        print("Server started on :8765")
+    async with serve(handler, "0.0.0.0", 8766):
+        print("Server started on :8766")
         await asyncio.Future()
 
 

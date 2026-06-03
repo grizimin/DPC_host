@@ -150,7 +150,7 @@ if __name__ == "__main__":
     if not globalMode:
         asyncio.run(main())
     else:
-        uri = "ws://localhost:8765"
+        uri = "ws://dpc.grizimin.space"
         client = DesktopClient(uri)
 
         asyncio.run(client.connect())
